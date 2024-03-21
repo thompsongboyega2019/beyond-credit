@@ -880,15 +880,3 @@
 })(jQuery);
 
 
-var fname = document.getElementById("fname").value;
-var lname = document.getElementById("lname").value;
-var prof = document.getElementById("prof").value;
-
-var profile = new Object();
-profile.name = fname + " " + lname;
-profile.prof = prof;
-
-for (const x in profile) {
-  alert(profile[x]);
-}
-alert("Your full name is " + profile.name + ". " + "And you are a/an " + profile.prof + ".");
