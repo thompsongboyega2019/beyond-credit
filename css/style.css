@@ -2297,7 +2297,7 @@ header .header-top .header-info-right ul li i {
 }
 
 .banner-area-4 {
-    background-color: #10121c;
+    background-color: var(--theme-color);
     overflow: hidden;
 }
 
@@ -2370,11 +2370,11 @@ header .header-top .header-info-right ul li i {
 }
 
 .banner-area-4 .banner-content p {
-    font-size: 16px;
+    font-size: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #fff;
-    line-height: 24px;
+    line-height: 30px;
 }
 
 .banner-area-4 .banner-content .theme-btn {
@@ -9647,7 +9647,7 @@ font-size: 40px;
     top: 6px;
     bottom: 6px;
     width: 2px;
-    background-color: var(--brand_color);
+    background-color: var(--secondary_color);
 }
 
 .safe-deposit-area .payment-system h5 {
@@ -9701,7 +9701,7 @@ font-size: 40px;
 /*  Why Choose Us Area CSS
   /*----------------------------------------*/
 .why-choose-area {
-    background: #10121c;
+    background: #e6f2f0;
 }
 
 .why-choose-area .section-title h2 {
@@ -9725,14 +9725,14 @@ font-size: 40px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     line-height: 30px;
-    color: #fff;
+    color: #000;
 }
 
 .why-choose-area .content-box p {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    color: #c8ccd0;
+    color: #4d4e50;
 }
 
 /*----------------------------------------*/
@@ -12193,3 +12193,10 @@ img.header-logo {
 .edu-title {
     color: var(--secondary_color);
 }
+.credit-title h1 {
+    font-size: 55px;
+}
+.credit-title p {
+    font-size: 20px;
+    line-height: 30px;
+} 
