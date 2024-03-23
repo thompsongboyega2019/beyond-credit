@@ -1744,4 +1744,7 @@ img.header-logo {
 .fs-sm-14 {
   font-size: 14px !important;
 }
+#preloader img {
+    width: 150px;
+}
 }

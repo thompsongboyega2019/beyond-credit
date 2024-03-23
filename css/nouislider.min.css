@@ -126,7 +126,7 @@
 }
 
 .noUi-connect {
-    background: #0050b2
+    background: var(--secondary_color);
 }
 
 .noUi-draggable {
