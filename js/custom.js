@@ -420,7 +420,7 @@
       var AmountFormat = wNumb({
         decimals: 0,
         thousand: ",",
-        prefix: "$",
+        prefix: "₦",
       });
       var AmountFormatNoMerge = wNumb({
         decimals: 0,
@@ -804,7 +804,7 @@
         inputFormat.value = AmountFormat.to(SelectedAmount);
       }
 
-      $(".LoanTotalAmount").text(AmountFormat.to(InterestAndPrincipal) + "*");
+      $(".LoanTotalAmount").text(AmountFormat.to(InterestAndPrincipal));
 
       if ($(inputMonthFormat).hasClass("noTextMerge")) {
         inputMonthFormat.value = selectedTime.value;
@@ -822,9 +822,9 @@
       }
 
       $("#emiAmount").text(
-        AmountFormat.to(InterestAndPrincipal / selectedTime.value) + "*"
+        AmountFormat.to(InterestAndPrincipal / selectedTime.value)
       );
-      $("#InterestPayable").text(AmountFormat.to(TotalInterest) + "*");
+      $("#InterestPayable").text(AmountFormat.to(TotalInterest));
       $("#InterestAmount").text((TotalRateOfInterest * 100).toFixed(2));
 
       var loanGraphEl = $("#loan_graph_circle");
